@@ -2,7 +2,7 @@ import express from 'express';
 import cors from "cors";
 import mongoose from 'mongoose';
 
-mongoose.connect('mongodb+srv://nasir:Nasir@123@cluster0.s5cdy.mongodb.net/Registration?retryWrites=true&w=majority');
+mongoose.connect('mongodb+srv://dbuser:dbpassword@cluster0.nr4e4.mongodb.net/chatbotdb?retryWrites=true&w=majority');
 const User = mongoose.model('User', {
     name: String,
     email: String,
